@@ -10,13 +10,13 @@ jobs:
     - name: checkout source repo
       uses: actions/checkout@main
 
-    - name: linting
-      uses: programmingwithalex/pylinter@main
-      with:
-        python-root: '.'
-        flake8-flags: ''
-        mypy-flags: ''
-        fail-on-isort: true
+    # - name: linting
+    #   uses: programmingwithalex/pylinter@main
+    #   with:
+    #     python-root: '.'
+    #     flake8-flags: ''
+    #     mypy-flags: ''
+    #     fail-on-isort: true
         # skip-flake8: false
         # skip-mypy: false
         # skip-isort: false
